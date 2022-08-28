@@ -1,0 +1,3 @@
+[submodule "pythonsh"]
+	path = pythonsh
+	url = git@github.com:coderofmattie/pythonsh.git
