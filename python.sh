@@ -2,6 +2,6 @@ PYTHON_VERSION="3.10:latest"
 
 VIRTUAL_PREFIX="pastepipe"
 
-VERSION=0.1.0
+VERSION=0.1.1
 
 EDITOR=nano
