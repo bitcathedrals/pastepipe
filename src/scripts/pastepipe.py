@@ -5,7 +5,6 @@
 
 # a program to read from stdin and copy it to stdout and to pastebin
 
-from tabnanny import verbose
 import requests
 import sys
 import os
