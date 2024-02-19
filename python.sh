@@ -1,7 +1,10 @@
-PYTHON_VERSION="3.10:latest"
+# pastepipe - python.sh
+VERSION=0.2.1
 
-VIRTUAL_PREFIX="pastepipe"
+PACKAGES="pastepipe"
+SOURCE="src"
 
-VERSION=0.2.0
+BUILD_NAME="pastepipe"
+VIRTUAL_PREFIX='pastepipe'
 
-EDITOR=nano
+PYTHON_VERSION='3.12'
