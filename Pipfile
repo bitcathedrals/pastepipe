@@ -7,11 +7,13 @@ name = "pypi"
 [packages]
 toml = {version = "*", index = "pypi"}
 version-parser = {version = "*", index = "pypi"}
-requests = {version = "~=2.31", index = "pypi"}
+requests = {version = "~=2.31.0", index = "pypi"}
 [dev-packages]
 build = {version = "*", index = "pypi"}
 ptpython = {version = "*", index = "pypi"}
 pytest = {version = "*", index = "pypi"}
+pytest-ordering = {version = "*", index = "pypi"}
+pytest-dependency = {version = "*", index = "pypi"}
 pipenv = {version = "*", index = "pypi"}
 pip = {version = "*", index = "pypi"}
 [requires]
