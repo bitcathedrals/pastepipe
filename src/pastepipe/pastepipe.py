@@ -1,3 +1,4 @@
+#! /usr/bin/env python3
 
 #
 # pastepipe.py written by Michael Mattie (codermattie@runbox.com)
