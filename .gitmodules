@@ -1,3 +1,6 @@
 [submodule "pythonsh"]
 	path = pythonsh
 	url = git@github.com:bitcathedrals/pythonsh.git
+	branch = main
+	ignore = dirty
+

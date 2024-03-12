@@ -3,11 +3,11 @@
 description = "a tool that copies stdin to stdout and pastebin"
 authors = [ { name = "Michael Mattie" , email = "codermattie@runbox.com" } ]
 
-[project.urls]
+[urls]
 homepage = "https://github.com/coderofmattie/pastepipe"
 repository = "https://github.com/coderofmattie/pastepipe.git"
 
-[project.scripts]
+[scripts]
 pastepipe = "pastepipe.pastepipe:exec"
 
 
