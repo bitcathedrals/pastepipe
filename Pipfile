@@ -1,11 +1,18 @@
+
 [[source]]
-url = "https://pypi.org/simple"
+url = "https://pypi.python.org/simple"
 verify_ssl = true
 name = "pypi"
 
 [packages]
-
+toml = {version = "*", index = "pypi"}
+requests = {version = "~=2.31.0", index = "pypi"}
 [dev-packages]
-
-[requires]
-python_version = "3.12"
+build = {version = "*", index = "pypi"}
+ptpython = {version = "*", index = "pypi"}
+pytest = {version = "*", index = "pypi"}
+pytest-ordering = {version = "*", index = "pypi"}
+pytest-dependency = {version = "*", index = "pypi"}
+pipenv = {version = "*", index = "pypi"}
+pip = {version = "*", index = "pypi"}
+version-parser = {version = "*", index = "pypi"}
