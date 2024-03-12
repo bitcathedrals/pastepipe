@@ -1,0 +1,22 @@
+[project]
+
+name = "pastepipe"
+version = "0.3.1"
+
+license = { file = "LICENSE" }
+
+readme = "README.md"
+
+description = "a tool that copies stdin to stdout and pastebin"
+authors = [ { name = "Michael Mattie" , email = "codermattie@runbox.com" } ]
+
+dependencies = ['requests']
+
+[project.urls]
+homepage = "https://github.com/coderofmattie/pastepipe"
+repository = "https://github.com/coderofmattie/pastepipe.git"
+
+[project.scripts]
+pastepipe = "pastepipe.pastepipe:exec"
+
+
