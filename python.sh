@@ -7,4 +7,4 @@ SOURCE="src"
 BUILD_NAME="pastepipe"
 VIRTUAL_PREFIX='pastepipe'
 
-PYTHON_VERSION='3.12'
+PYTHON_VERSION='3.11'
