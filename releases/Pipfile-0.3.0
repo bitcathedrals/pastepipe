@@ -6,15 +6,13 @@ name = "pypi"
 
 [packages]
 toml = {version = "*", index = "pypi"}
-requests = {version = "~=2.31.0", index = "pypi"}
+version-parser = {version = "*", index = "pypi"}
+requests = {version = "~=2.31", index = "pypi"}
 [dev-packages]
 build = {version = "*", index = "pypi"}
 ptpython = {version = "*", index = "pypi"}
 pytest = {version = "*", index = "pypi"}
-pytest-ordering = {version = "*", index = "pypi"}
-pytest-dependency = {version = "*", index = "pypi"}
-version-parser = {version = "*", index = "pypi"}
-setuptools = {version = "*", index = "pypi"}
 pipenv = {version = "*", index = "pypi"}
 pip = {version = "*", index = "pypi"}
-twine = {version = "*", index = "pypi"}
+[requires]
+python_version = "3.12"

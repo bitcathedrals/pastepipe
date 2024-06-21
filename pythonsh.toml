@@ -1,0 +1,13 @@
+[project]
+
+description = "a tool that copies stdin to stdout and pastebin"
+authors = [ { name = "Mr. Mattie" , email = "mattie@codermattie.net" } ]
+
+[urls]
+homepage = "https://github.com/bitcathedrals/pastepipe"
+repository = "https://github.com/bitcathedrals/pastepipe.git"
+
+[scripts]
+pastepipe = "pastepipe.pastepipe:exec"
+
+
